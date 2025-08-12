@@ -11,7 +11,7 @@ app.get('/cadastro',(req,res)=>{
     res.status(200).json(usuarios)
 })
 
-app.post('/cadastro',(req,res)=>{
+app.post('/cadastro', (req,res)=>{
     //console.log(req.body)
     usuarios.push(req.body)
     //res.status(201).send('DEU BOM NO POST!')
@@ -21,5 +21,5 @@ app.post('/cadastro',(req,res)=>{
 
 //PORTA LOCAL DO SERVIDOR
 app.listen(3000,()=>{
-    console.log('SERVIDOR LOGANDO!')
+    console.log('SERVIDOR RODANDO!')
 })
