@@ -1,0 +1,24 @@
+npm install
+
+npm i nodemon -g (-g = global...)
+
+npm i prisma --save-dev
+npx prisma init
+npx prisma db push
+npm install @prisma/client
+npx prisma studio
+
+postman
+swagger
+
+node --watch server.js
+
+login mongo db:
+gmail: etecarvalhoe@gmail.com
+senha: ****************
+
+
+etcarvalhoe (usuario)
+Miko**2514patoca (senha)
+
+mongodb+srv://etcarvalhoe:Miko**2514patoca@primeirocluster.lj3hktl.mongodb.net/PrimeiroCluster?retryWrites=true&w=majority&appName=PrimeiroCluster
