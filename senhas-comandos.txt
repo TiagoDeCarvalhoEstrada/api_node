@@ -7,6 +7,9 @@ npx prisma init
 npx prisma db push
 npm install @prisma/client
 npx prisma studio
+npx prisma generate
+
+npm run dev (run no front-end)
 
 postman
 swagger

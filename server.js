@@ -31,15 +31,11 @@ app.put('/cadastro/:id', async (req,res)=>{
 })
 
 app.delete('/cadastro/:id', async (req,res)=>{
-
-    // console.log(req.params.id)
      await prisma.usuario.delete({
          where:{
              id: req.params.id
          }
      })
- 
- 
      res.status(200).json({"message":"Cliente Removido!"})
  })
 
